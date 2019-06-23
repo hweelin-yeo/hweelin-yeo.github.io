@@ -35,11 +35,10 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav">
-							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-							<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-							<li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-							<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+							<li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+							<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+							<li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
 						</ul>
 					</div>
 				</div>
@@ -49,7 +48,7 @@
 	<!--================ End Header Area =================-->
 
 	<!--================ Start Home Banner Area =================-->
-	<section class="home_banner_area">
+	<section id="home" class="home_banner_area">
 		<div class="banner_inner">
 			<div class="container">
 				<div class="row align-items-center justify-content-between">
@@ -68,7 +67,7 @@
 					</div>
 					<div class="col-lg-4">
 						<div class="home_right_img">
-							<img class="img-fluid" src="img/profile.jpg" alt="">
+							<img class="img-fluid" src="img/profile.png" alt="">
 						</div>
 					</div>
 				</div>
@@ -78,11 +77,13 @@
 	<!--================ End Home Banner Area =================-->
 
 	<!--================ Start About Us Area =================-->
-	<section class="about_area">
+	<section id="about" class="about_area section_gap">
 		<div class="container">
 			<div class="row justify-content-start align-items-center">
 				<div class="col-lg-5">
-					<!-- blank -->
+					<div class="home_right_img">
+						<img class="img-fluid" src="img/profile_2.png" alt="">
+					</div>
 				</div>
 
 				<div class="offset-lg-1 col-lg-5">
@@ -111,7 +112,7 @@
 	<!--================ End About Us Area =================-->
 
 	<!--================ Start Features Area =================-->
-	<section class="services_area">
+	<section id="projects" class="services_area section_gap">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -138,8 +139,9 @@
 				<div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
 					<div class="service_item">
 						<h4>Web Dashboard and Server </h4>
-						<p>Developed web application to display critical race and car information with NodeJS
-						Developed a cloud server and database to store data</p>
+						<p>Developed web application to display critical, live-timing race and car information with NodeJS
+							and web sockets, as well as a 'historical' dashboard for post-race analysis.
+							 Deployed API endpoints, cloud server and PostgreSQL database to store data. </p>
 						<a href="https://github.com/hweelin-yeo/Web-Dashboard-Server" class="primary_btn mt-35">Learn More</a>
 					</div>
 				</div>
@@ -147,9 +149,9 @@
 				<div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
 					<div class="service_item">
 						<h4>Whack A Mole Embedded Systems</h4>
-						<p>Developped a hardware game, equipped with a SNES controller and an LED board,
+						<p>Developed a hardware game, equipped with a SNES controller and an LED board,
 							where users can “whack” moles. Moles appear on the LED boards randomly
-							and players have to hit the moles in the right position with a hammer, denoted by a green LED pointer.</p>
+							and players have to hit the moles with a green LED pointer.</p>
 						<a href="https://github.com/hweelin-yeo/Whack-A-Mole" class="primary_btn mt-35">Learn More</a>
 					</div>
 				</div>
@@ -159,214 +161,20 @@
 	<!--================ End Features Area =================-->
 
 
-  <!--================ Start Testimonial Area =================-->
-	<section class="testimonial_area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="main_title">
-						<p class="top_text">Our Tesitmonial <span></span></p>
-						<h2>Honourable Client Says <br>
-							About Me </h2>
-					</div>
-				</div>
-      </div>
-
-      <div class="owl-carousel owl-theme testimonial-slider ">
-        <div class="testimonial-item">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="testi-img mb-4 mb-lg-0">
-                <img src="img/testimonials/testimonial1.png" alt="">
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="testi-right">
-                <h4>Roser Henrique</h4>
-                <p><small>Project Manager, Apple</small></p>
-
-                <p>Waters can not replenish hath fly and be to brought isn't very days behold without land every above lights us fruitful wherein divide it him fowl moving may beginning subdue fly waters can't replenish hath fly and be to brought isn't very days behold </p>
-                <ul class="star_rating mt-4">
-                  <li><span><i class="fas fa-star"></i></span></li>
-                  <li><span><i class="fas fa-star"></i></span></li>
-                  <li><span><i class="fas fa-star"></i></span></li>
-                  <li><span><i class="fas fa-star"></i></span></li>
-                  <li class="disable"><span><i class="fas fa-star"></i></span></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="testimonial-item">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="testi-img mb-4 mb-lg-0">
-                <img src="img/testimonials/testimonial1.png" alt="">
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="testi-right">
-                <h4>Roser Henrique</h4>
-                <p><small>Project Manager, Apple</small></p>
-
-                <p>Waters can not replenish hath fly and be to brought isn't very days behold without land every above lights us fruitful wherein divide it him fowl moving may beginning subdue fly waters can't replenish hath fly and be to brought isn't very days behold </p>
-                <ul class="star_rating mt-3">
-                  <li><span><i class="fas fa-star"></i></span></li>
-                  <li><span><i class="fas fa-star"></i></span></li>
-                  <li><span><i class="fas fa-star"></i></span></li>
-                  <li><span><i class="fas fa-star"></i></span></li>
-                  <li class="disable"><span><i class="fas fa-star"></i></span></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="testimonial-item">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="testi-img mb-4 mb-lg-0">
-                <img src="img/testimonials/testimonial1.png" alt="">
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="testi-right">
-                <h4>Roser Henrique</h4>
-                <p><small>Project Manager, Apple</small></p>
-
-                <p>Waters can not replenish hath fly and be to brought isn't very days behold without land every above lights us fruitful wherein divide it him fowl moving may beginning subdue fly waters can't replenish hath fly and be to brought isn't very days behold </p>
-                <ul class="star_rating mt-3">
-                  <li><span><i class="fas fa-star"></i></span></li>
-                  <li><span><i class="fas fa-star"></i></span></li>
-                  <li><span><i class="fas fa-star"></i></span></li>
-                  <li><span><i class="fas fa-star"></i></span></li>
-                  <li class="disable"><span><i class="fas fa-star"></i></span></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-	<!--================ End Testimonial Area =================-->
-
-
-
-
-	<!--================ Start Portfolio Area =================-->
-	<section class="portfolio_area" id="portfolio">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="main_title">
-						<p class="top_text">Our Portfolio <span></span></p>
-						<h2>Check Our Recent <br>
-							Client Work </h2>
-					</div>
-				</div>
-			</div>
-
-			<div class="filters portfolio-filter">
-				<ul>
-					<li class="active" data-filter="*">all</li>
-					<li data-filter=".popular">popular</li>
-					<li data-filter=".latest"> latest</li>
-					<li data-filter=".following">following</li>
-					<li data-filter=".upcoming">upcoming</li>
-				</ul>
-			</div>
-
-			<div class="filters-content">
-				<div class="row portfolio-grid">
-					<div class="grid-sizer col-md-3 col-lg-3"></div>
-					<div class="col-lg-6 col-md-6 all following">
-						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/portfolio/p1.jpg" alt="">
-							<div class="overlay"></div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">Lens Mockup Design</a></h4>
-								<p>Art, Illustration</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-6 col-md-6 all latest popular upcoming">
-						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/portfolio/p4.jpg" alt="">
-							<div class="overlay"></div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">Lens Mockup Design</a></h4>
-								<p>Art, Illustration</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-md-6 all latest following">
-						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/portfolio/p2.jpg" alt="">
-							<div class="overlay"></div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">Lens Mockup Design</a></h4>
-								<p>Art, Illustration</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-md-6 all latest upcoming">
-						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/portfolio/p3.jpg" alt="">
-							<div class="overlay"></div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">Lens Mockup Design</a></h4>
-								<p>Art, Illustration</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-6 col-md-6 all popular">
-						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/portfolio/p6.jpg" alt="">
-							<div class="overlay"></div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">Lens Mockup Design</a></h4>
-								<p>Art, Illustration</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-6 col-md-6 all popular latest following">
-						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/portfolio/p5.jpg" alt="">
-							<div class="overlay"></div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">Lens Mockup Design</a></h4>
-								<p>Art, Illustration</p>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Portfolio Area =================-->
-
 	<!--================ Start Blog Area =================-->
-	<section class="blog-area section-gap">
+	<section id="blog" class="blog-area section_gap">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="main_title">
 						<p class="top_text">Our blog <span></span></p>
 						<h2>Latest Story From <br>
-							Our Blog </h2>
+							My Blog </h2>
 					</div>
 				</div>
 			</div>
 
-			<div class="row">
+			<!-- <div class="row">
 				<div class="col-lg-4 col-md-6">
 					<div class="single-blog">
 						<div class="thumb">
@@ -433,59 +241,11 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</section>
 	<!--================ End Blog Area =================-->
 
-	<!--================ Start Brands Area =================-->
-	<section class="brands-area section_gap_bottom">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-12">
-					<div class="owl-carousel brand-carousel">
-						<!-- single-brand -->
-						<div class="single-brand-item d-table">
-							<div class="d-table-cell">
-								<img src="img/brands/logo1.png" alt="">
-							</div>
-						</div>
-						<!-- single-brand -->
-						<div class="single-brand-item d-table">
-							<div class="d-table-cell">
-								<img src="img/brands/logo2.png" alt="">
-							</div>
-						</div>
-						<!-- single-brand -->
-						<div class="single-brand-item d-table">
-							<div class="d-table-cell">
-								<img src="img/brands/logo3.png" alt="">
-							</div>
-						</div>
-						<!-- single-brand -->
-						<div class="single-brand-item d-table">
-							<div class="d-table-cell">
-								<img src="img/brands/logo4.png" alt="">
-							</div>
-						</div>
-						<!-- single-brand -->
-						<div class="single-brand-item d-table">
-							<div class="d-table-cell">
-								<img src="img/brands/logo5.png" alt="">
-							</div>
-						</div>
-						<!-- single-brand -->
-						<div class="single-brand-item d-table">
-							<div class="d-table-cell">
-								<img src="img/brands/logo3.png" alt="">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Brands Area =================-->
 
 	<!--================Footer Area =================-->
 	<footer class="footer_area">
@@ -494,28 +254,23 @@
 				<div class="col-lg-12">
 					<div class="footer_top flex-column">
 						<div class="footer_logo">
-							<a href="#">
-								<img src="img/logo2.png" alt="">
-							</a>
+
 							<div class="d-lg-block d-none">
 								<nav class="navbar navbar-expand-lg navbar-light justify-content-center">
 									<div class="collapse navbar-collapse offset">
 										<ul class="nav navbar-nav menu_nav mx-auto">
-											<li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
-											<li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
-											<li class="nav-item"><a class="nav-link text-white" href="portfolio.html">Portfolio</a></li>
-											<li class="nav-item"><a class="nav-link text-white" href="blog.html">BLog</a></li>
-											<li class="nav-item"><a class="nav-link text-white" href="services.html">Services </a></li>
+											<li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
+											<li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
+											<li class="nav-item"><a class="nav-link text-white" href="#blog">Blog</a></li>
+											<li class="nav-item"><a class="nav-link text-white" href="#projects">Projects </a></li>
 										</ul>
 									</div>
 								</nav>
 							</div>
 						</div>
 						<div class="footer_social mt-lg-0 mt-4">
-							<a href="#"><i class="fab fa-facebook-f"></i></a>
-							<a href="#"><i class="fab fa-twitter"></i></a>
-							<a href="#"><i class="fab fa-skype"></i></a>
-							<a href="#"><i class="fab fa-pinterest-p"></i></a>
+							<a href="https://www.linkedin.com/in/hwee-lin-yeo-484144133/"><i class="fab fa-linkedin"></i></a>
+							<a href="https://join.skype.com/invite/panHDfWCg1Ag"><i class="fab fa-skype"></i></a>
 						</div>
 					</div>
 				</div>

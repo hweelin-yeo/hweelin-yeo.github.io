@@ -508,8 +508,8 @@ button.primary_btn {
 
 .home_banner_area .banner_inner .home_right_img {
 	padding-top: 7px;
-	max-height: 60%;
-	max-width: 60%;
+	max-height: 100%;
+	max-width: 100%;
 }
 
 @media (max-width: 991px) {
