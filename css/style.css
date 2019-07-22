@@ -169,11 +169,11 @@ button.primary_btn {
 	width: 80px;
 	height: 4px;
 	background: rgba(237, 35, 159, 0.6);
-	filter: blur(4px);
+	/* filter: blur(4px);
 	-o-filter: blur(4px);
 	-ms-filter: blur(4px);
 	-moz-filter: blur(4px);
-	-webkit-filter: blur(4px);
+	-webkit-filter: blur(4px); */
 	border-radius: 5px
 }
 
